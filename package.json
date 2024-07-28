@@ -1,0 +1,17 @@
+{
+  "name": "bun_learing",
+  "version": "1.0.50",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch index.ts"
+  },
+  "dependencies": {
+    "bun-router": "^0.8.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.6",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

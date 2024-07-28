@@ -1,0 +1,22 @@
+
+
+GET http://localhost:3000/api
+Accept: application/json
+
+
+###
+// create-user
+POST http://localhost:3000/user/create-user
+Content-Type: application/json
+
+{
+  name: vonhucong
+  age: 13
+}
+
+###
+// get-users
+GET http://localhost:3000/user/get-users
+    ?page=2
+    &pagesize=10
+Content-Type: application/json

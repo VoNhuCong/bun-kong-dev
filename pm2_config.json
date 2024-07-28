@@ -1,0 +1,10 @@
+{
+    "apps": [
+        {
+            "name": "onlybun",
+            "script": "bun run dev",
+            "exec_mode": "fork",
+            "autorestart": true
+        }
+    ]
+}
